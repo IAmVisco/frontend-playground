@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-multi-spaces": "error",
+        "no-trailing-spaces": "error"
+    },
+    "globals": {
+        "$": true
+    }
+}

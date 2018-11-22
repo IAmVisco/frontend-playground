@@ -1,0 +1,48 @@
+body {
+    padding: 8px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.blue {
+    height: 370px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(30deg, #3f5ca8 0%, 
+                                       #5579d9 100%);
+    color: #fff;
+    font-size: 72px;
+    z-index: 100;
+    text-align: center;
+    will-change: opacity;
+    padding: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+
+}
+
+.blue:before {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: linear-gradient(30deg, #FF5E9B 0%, 
+                                       #FFADA5 100%);
+    content: '';
+    z-index: -100;
+    transition: opacity .2s;
+}
+
+.blue:hover:before {
+    opacity: 1;
+}

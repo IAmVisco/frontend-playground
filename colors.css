@@ -1,0 +1,139 @@
+/* Bootstrap 4 color schema */
+
+.blue {
+    background-color: #007bff;
+}
+
+.indigo {
+    background-color: #6610f2;
+}
+
+.purple {
+    background-color: #6f42c1;
+}
+
+.pink {
+    background-color: #e83e8c;
+}
+
+.red {
+    background-color: #dc3545;
+}
+
+.orange {
+    background-color: #fd7e14;
+}
+
+.yellow {
+    background-color: #ffc107;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.teal {
+    background-color: #20c997;
+}
+
+.cyan {
+    background-color: #17a2b8;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.gray {
+    background-color: #6c757d;
+}
+
+.gray-dark {
+    background-color: #343a40;
+}
+
+.primary {
+    background-color: #007bff;
+}
+
+.secondary {
+    background-color: #6c757d;
+}
+
+.success {
+    background-color: #28a745;
+}
+
+.info {
+    background-color: #17a2b8;
+}
+
+.warning {
+    background-color: #ffc107;
+}
+
+.danger {
+    background-color: #dc3545;
+}
+
+.light {
+    background-color: #f8f9fa;
+}
+
+.dark {
+    background-color: #343a40;
+}
+
+/* Material 2.0 Google Keep colors */
+
+.red {
+    background-color: #f28b82;
+}
+
+.orange {
+    background-color: #fbbc04;
+}
+
+.yellow {
+    background-color: #fff475;
+}
+
+.green {
+    background-color: #ccff90;
+}
+
+.blue-green {
+    background-color: #a7ffeb;
+}
+
+.blue {
+    background-color: #cbf0f8;
+}
+
+.dark-blue {
+    background-color: #aecbfa;
+}
+
+.purple {
+    background-color: #d7aefb;
+}
+
+.pink {
+    background-color: #fdcfe8;
+}
+
+.brown {
+    background-color: #e6c9a8;
+}
+
+.grey {
+    background-color: #e8eaed;
+}
+
+.discord {
+    background-color: #36393e;
+}
+
+.alt-discord {
+    background-color: #2C2F33;
+}

@@ -1,0 +1,130 @@
+ul {
+    list-style: none;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.blue-grad {
+    background: linear-gradient(30deg, #3f5ca8 0%, #5579d9 100%);
+    color: #fff;
+}
+
+.pink-grad {
+    background: linear-gradient(30deg, #FF5E9B 0%, #FFADA5 100%);
+    color: #fff;
+}
+
+.page {
+    height: 100vh;
+}
+
+/* Colors */
+
+.red {
+    background-color: #f28b82;
+}
+
+.orange {
+    background-color: #fbbc04;
+}
+
+.yellow {
+    background-color: #fff475;
+}
+
+.green {
+    background-color: #ccff90;
+}
+
+.blue-green {
+    background-color: #a7ffeb;
+}
+
+.blue {
+    background-color: #cbf0f8;
+}
+
+.dark-blue {
+    background-color: #aecbfa;
+}
+
+.purple {
+    background-color: #d7aefb;
+}
+
+.pink {
+    background-color: #fdcfe8;
+}
+
+.brown {
+    background-color: #e6c9a8;
+}
+
+.grey {
+    background-color: #e8eaed;
+}
+
+.discord {
+    background-color: #36393e;
+}
+
+.alt-discord {
+    background-color: #2C2F33;
+}
+
+.pages-dots {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: white;
+    font-size: 75%;
+}
+
+.pages-dots a {
+    display: block;
+    height: 20px;
+    margin-bottom: 5px;
+    color: white;
+    position: relative;
+    padding: 4px;
+}
+
+.pages-dots a.active:after {
+    transform: scale(1.2);
+}
+
+.pages-dots a .hover-text {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    padding-right: 15px;
+    will-change: opacity;
+}
+
+.pages-dots a:hover .hover-text {
+    opacity: 1;
+}
+
+.pages-dots a:after {
+    width: 9px;
+    height: 9px;
+    display: block;
+    background-color: white;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 4px;
+    bottom: 0;
+    will-change: transform; 
+    transition: all 0.5s ease;
+}
